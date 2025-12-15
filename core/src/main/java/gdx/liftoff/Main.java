@@ -17,7 +17,7 @@ public class Main extends ApplicationAdapter {
     @Override
     public void create() {
         batch = new SpriteBatch();
-        atlas = new TextureAtlas("OpenMojiWithYanoneKaffeesatz.atlas");
+        atlas = new TextureAtlas("OpenMojiWithYanoneKaffeesatzSquare.atlas");
         image = atlas.findRegion("OpenMoji-white");
     }
 
